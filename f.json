@@ -1,7 +1,7 @@
 {
     "api": {
       "signup": {
-        "url": "http://example.com/api/signup",
+        "url": "http://example.com/api/create.php",
         "method": "POST",
         "description": "API endpoint for user signup",
         "parameters": [
