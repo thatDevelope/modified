@@ -1,0 +1,55 @@
+{
+    "api": {
+      "signup": {
+        "url": "http://example.com/api/signup",
+        "method": "POST",
+        "description": "API endpoint for user signup",
+        "parameters": [
+          {
+            "name": "username",
+            "type": "string",
+            "description": "Username of the user"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the user"
+          },
+          {
+            "name": "miscode",
+            "type": "string",
+            "description": "Miscode of the user"
+          },
+          {
+            "name": "misrole",
+            "type": "string",
+            "description": "Misrole of the user"
+          },
+          {
+            "name": "role",
+            "type": "string",
+            "description": "Role of the user"
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": "Email address of the user"
+          },
+          {
+            "name": "AllowedModules",
+            "type": "string",
+            "description": "Allowed modules for the user"
+          },
+          {
+            "name": "password",
+            "type": "string",
+            "description": "Password of the user"
+          }
+        ],
+        "response": {
+          "message": "Signup successful"
+        }
+      }
+    }
+  }
+  
