@@ -1,0 +1,12 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "username": "john",
+    "name": "John Doe",
+    "miscode": "12345",
+    "misrole": "admin",
+    "role": "user",
+    "email": "john@example.com",
+    "AllowedModules": "module1,module2,module3",
+    "password": "password123"
+  }' http://localhost/api.php
+  
+  
