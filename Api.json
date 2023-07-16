@@ -1,0 +1,10 @@
+{
+    "api": {
+      "createUser": {
+        "description": "API endpoint to create a user",
+        "method": "POST",
+        "endpoint": "http://localhost/phptutorials/create.php"
+      }
+    }
+  }
+  
